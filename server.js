@@ -9,6 +9,7 @@ const server = http.createServer((req, res) => {
 })
 
 function respondHello (req, res) {
+  console.log("commit by branch2----------")
   res.end(JSON.stringify({ msg: 'hello' }))
 }
 
